@@ -1,4 +1,16 @@
 <script setup lang="ts">
+  import Formulario from './components/ListaDatos/Lista.vue'
+</script>
+
+<template>
+  <main>
+    <Formulario/>
+  </main>
+</template>
+
+<style scoped></style>
+
+<!-- <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 </script>
@@ -84,3 +96,4 @@ nav a:first-of-type {
   }
 }
 </style>
+ -->

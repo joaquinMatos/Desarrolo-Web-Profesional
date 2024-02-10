@@ -35,6 +35,7 @@ function mensaje() {
 
 watch([nombre, apellido, edad, telefono], () => {
     mensaje();
+    
 });
 
 </script>
@@ -75,6 +76,7 @@ watch([nombre, apellido, edad, telefono], () => {
         <h5> Numero de telefono : {{ telefono }}</h5>
 
     </div>
+    
 </template>
   
 <style scoped>
